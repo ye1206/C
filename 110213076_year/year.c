@@ -19,6 +19,8 @@ int main()
     {
         if (year % 400 == 0)
             printf("%d 年是閏年\n", year);
+        else
+            printf("%d 不是閏年\n", year);
     } //else if
     else if (year % 400 == 0) //如果能夠被 400 整除
         printf("%d 年是閏年\n", year); //則是閏年
