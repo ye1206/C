@@ -11,7 +11,7 @@ int main()
     int size = 0;
     printf("Enter the size of the array: ");
     scanf("%d", &size);
-    int* arr3 = malloc(size * sizeof(int));
+    int* arr3 = malloc(size * sizeof(int)); // 動態配置記憶體(之後再看有沒有其他處理辦法)
     printf("--------------------------------\n");
     
     for (i = 0; i < 4; i++)
@@ -52,7 +52,7 @@ int main()
             max3 = arr3[i];
         else 
         {
-            if (arr1[i] > max3)
+            if (arr3[i] > max3)
                 max3 = arr3[i];
         } //else
     }
