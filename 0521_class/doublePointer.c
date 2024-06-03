@@ -6,8 +6,8 @@ int main()
     int x = 10;
     int *p, **ptr;
 
-    p = &x;
-    ptr = &p;
+    p = &x; //p get the address of x
+    ptr = &p; //ptr get the address of p
 
     printf("x = %d, &x = %X\n", x, &x);
 
