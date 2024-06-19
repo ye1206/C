@@ -3,7 +3,7 @@
 
 int main()
 {
-    char *str[3] = {};
+    char *str[3];
     char s[80];    
     int i = 0;
 
